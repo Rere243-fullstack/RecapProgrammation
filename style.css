@@ -1,0 +1,11 @@
+.main-header{
+    display: flex;
+  justify-content: space-between; /* Espace logo et nav */
+  align-items: center; /* Centre verticalement */
+  padding: 10px 20px;
+}
+.main-header nav ul {
+     display: flex; /* Aligne les liens de nav */
+     list-style: none;
+     gap: 15px; /* Espace entre les liens */
+}
