@@ -1,11 +1,38 @@
 .main-header{
     display: flex;
-  justify-content: space-between; /* Espace logo et nav */
-  align-items: center; /* Centre verticalement */
-  padding: 10px 20px;
+    justify-content: space-between; /* Espace logo et nav */
+    align-items: center; /* Centre verticalement */
+    padding: 10px 20px;
 }
 .main-header nav ul {
      display: flex; /* Aligne les liens de nav */
      list-style: none;
      gap: 15px; /* Espace entre les liens */
+}
+/* Style de base pour la Hero Section */
+.hero{
+     display: flex; /* Aligne le contenu et l'image */
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+.hero-content{
+     flex: 1;
+}
+.hero-image{
+     max-width: 50%; /* Image réactive */
+    height: auto;
+}
+.article-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.card{
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1)
 }
