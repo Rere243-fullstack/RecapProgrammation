@@ -12,10 +12,10 @@
 /* Style de base pour la Hero Section */
 .hero{
      display: flex; /* Aligne le contenu et l'image */
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    background-color: #f4f4f4;
+     align-items: center;
+     justify-content: space-between;
+     padding: 50px;
+     background-color: #f4f4f4;
 }
 .hero-content{
      flex: 1;
@@ -41,4 +41,22 @@
 }
 .card-1{
     border-radius: 5%;
+}
+.site-footer {
+     background-color: #f4f4f4;
+     color: #131313;
+     padding: 20px 0;
+     text-align: center;
+     position: relative;
+     bottom: 0;
+     width: 100%;
+}
+
+.site-footer a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.footer-content {
+    margin-bottom: 10px;
 }
