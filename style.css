@@ -24,6 +24,9 @@
      max-width: 50%; /* Image réactive */
     height: auto;
 }
+.logo-1{
+    border-radius: 20%;
+}
 .article-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -35,4 +38,7 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1)
+}
+.card-1{
+    border-radius: 5%;
 }
