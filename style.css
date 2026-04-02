@@ -60,3 +60,28 @@
 .footer-content {
     margin-bottom: 10px;
 }
+/* partie produits */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    overflow: hidden;
+    font-family: sans-serif;
+    transition: 0.3s;
+}
+.product-card:hover { box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+.product-image { width: 100%; height: 200px; object-fit: cover; }
+.product-details { padding: 15px; text-align: center; }
+.product-title { margin: 10px 0; font-size: 1.2em; }
+.product-price { font-size: 1.3em; color: #2ecc71; font-weight: bold; }
+.add-to-cart {
+    display: block; width: 100%; padding: 10px; margin-top: 15px;
+    background-color: #3498db; color: white; border: none;
+    border-radius: 4px; cursor: pointer;
+}
+.add-to-cart:hover { background-color: #2980b9; }
+
+/* partie promo */
+
+
+/* partie contact*/
