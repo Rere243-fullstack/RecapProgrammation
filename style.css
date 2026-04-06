@@ -61,7 +61,16 @@
     margin-bottom: 10px;
 }
 /* partie produits */
+.products-container{
+    display: flex;
+    gap: 20px;           /* espace entre les cartes */
+    flex-wrap: wrap;     /* permet de passer à la ligne si écran petit */
+    justify-content: center; /* centre horizontalement */
+    margin-bottom: 50px; /* espace avec le footer */
+     margin-top: 50px;     /* espace avec le header */
+}
 .product-card {
+    
     border: 1px solid #ddd;
     border-radius: 8px;
     width: 300px;
@@ -83,5 +92,48 @@
 
 /* partie promo */
 
+.titre {
+    text-align: center;
+}
 
 /* partie contact*/
+
+.contact-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
