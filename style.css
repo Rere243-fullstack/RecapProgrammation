@@ -8,6 +8,7 @@
      display: flex; /* Aligne les liens de nav */
      list-style: none;
      gap: 15px; /* Espace entre les liens */
+     text-decoration: none; /* enlève le soulignement */
 }
 /* Style de base pour la Hero Section */
 .hero{
@@ -136,4 +137,65 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+/* Mobile (max 768px) */
+@media (max-width: 768px) {
+
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main-header nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-image {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .products-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .product-card {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+}
+
+/* 📲 Tablette (769px à 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        max-width: 80%;
+        margin-top: 20px;
+    }
+
+    .product-card {
+        width: 45%;
+    }
+
+    .products-container {
+        justify-content: center;
+    }
 }
